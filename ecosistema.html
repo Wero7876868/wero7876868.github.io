@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Animate Grid with FLIP</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://use.typekit.net/pwo6ytv.css"><link rel="stylesheet" href="./style_ecos.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<main>
+  <header>
+    <h1>Ecosistemas</h1>
+    <p>La definición más sencilla de ecosistema sería la de un sistema biológico de gran complejidad en el que se incluyen todas y cada una de las diferentes interacciones que se dan, tanto entre los seres vivos, como entre estos y el entorno en que se encuentran.
+
+      Los ecosistemas recogen así toda una serie de interacciones intraespecíficas (entre individuos de la misma especie) e interespecíficas (entre individuos de especies diferentes), basadas en los diferentes recursos que el propio ecosistema proporciona a los seres vivos, y los diversos flujos de energía que en él se dan. En estos otros artículos de EcologíaVerde podrás encontrar información sobre Qué son las relaciones intraespecíficas con ejemplos y las Relaciones interespecíficas, sus tipos y ejemplos.<button type="button" id="alpha-order" class="button-inline">alphabetical order.</button></p>
+  </header>
+  <div class="grid">
+    <article class="article article-1">
+      <a href="#">
+        <img src="https://cdn.diferenciador.com/imagenes/aconcagua-3884930-1920-cke.jpg" alt="">
+      </a>
+      <section class="description">
+        <h2>Ecosistemas terrestres</h2>
+        <div class="details-view">
+          <p>Los ecosistemas terrestres se desarrollan principalmente sobre la tierra o terreno sólido en la superficie del planeta. El terreno puede ser roca, suelo, arena o hielo. La vegetación en los ecosistemas terrestres es la más amplia y diversa y de ella depende la diversidad de los organismos consumidores y depredadores.</p>
+          <button type="button">Move to top</button>
+        </div>
+      </section>
+    </article>
+    <article class="article article-2">
+      <a href="#">
+        <img src="https://cdn.diferenciador.com/imagenes/fish-378286-1920-cke.jpg" alt="">
+      </a>
+      <section class="description">
+        <h2>Ecosistemas marinos</h2>
+        <div class="details-view">
+          <p>Los ecosistemas marinos se desarrollan en mares y océanos. Se caracterizan por tener una flora y una fauna adaptada para obtener sus recursos a partir del agua salada: algas, fitoplancton, zooplancton y peces. Son los ecosistemas más extensos del planeta Tierra.</p>
+          <button type="button">Move to top</button>
+        </div>
+      </section>
+    </article>
+    <article class="article article-3">
+      <a href="#">
+        <img src="https://cdn.diferenciador.com/imagenes/chihuahua-5007133-1920-cke.jpg" alt="">
+      </a>
+
+      <section class="description">
+        <h2>Ecosistemas acuáticos</h2>
+        <div class="details-view">
+          <p>Los ecosistemas acuáticos se desarrollan en el agua dulce de ríos, arroyos y lagos. Presentan una diversidad de animales acuáticos, como peces, invertebrados y mamíferos.</p>
+          <button type="button">Move to top</button>
+        </div>
+      </section>
+    </article>
+    <article class="article article-4">
+      <a href="#">
+        <img src="https://cdn.diferenciador.com/imagenes/estuary-3935285-1920-cke.jpg" alt="">
+      </a>
+      <section class="description">
+        <h2>Ecosistemas mixtos</h2>
+        <div class="details-view">
+          <p>Los ecosistemas mixtos se encuentran en las fronteras entre ecosistemas de diferentes medios. Así tenemos:
+            <ul>
+              <li>Ecosistemas marino-acuático-terrestre: los estuarios son ecosistemas que se establecen donde el agua de mar y el agua de río se consiguen en las desembocaduras de los ríos.</li>
+              <li>Ecosistema marino-terrestre: se concentra en la zona de marea alta y de marea baja en terrenos rocosos.</li>
+              <li>Ecosistema terrestre-acuático: se presentan en las zonas donde la tierra queda inundada por ríos, por ejemplo los humedales y los pantanos.</li>
+            </ul>
+          </p>
+          <button type="button">Move to top</button>
+        </div>
+      </section>
+    </article>
+    <article class="details article article-5" style="--max:1">
+      <a href="#">
+        <img src="https://cdn.diferenciador.com/imagenes/desert-1246282-1920-cke.jpg" alt="">
+      </a>
+      <section class="description">
+        <h2>Ecosistemas naturales</h2>
+        <div class="details-view" style="opacity: 1; transform: translateY(0)">
+          <p>Los ecosistemas naturales son aquellos ecosistemas producto de las fuerzas físicas de la naturaleza. Son muy flexibles y dinámicos y pueden ser alterados por la intervención humana. </p>
+          <button type="button">Move to top</button>
+        </div>
+      </section>
+    </article>
+    <article class="article article-6">
+      <a href="#">
+        <img src="https://cdn.diferenciador.com/imagenes/nature-2294256-1920-cke.jpg" alt="">
+      </a>
+      <section class="description">
+        <h2>Ecosistemas artificiales</h2>
+        <div class="details-view">
+          <p>Los ecosistemas artificiales son aquellos ecosistemas construidos y manejados por los seres humanos, por lo general alterando los ecosistemas naturales existentes. Son muy variados y se pueden encontrar en cualquier parte del mundo.</p>
+          <button type="button">Move to top</button>
+        </div>
+      </section>
+    </article>
+  </div>
+</main>
+<!-- partial -->
+  <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/CustomEase3.min.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/CustomBounce3.min.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/CustomWiggle3.min.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/InertiaPlugin.min.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/Draggable3.min.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/EasePack3.min.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/Flip.min.js'></script><script  src="./script_ecos.js"></script>
+
+</body>
+</html>
